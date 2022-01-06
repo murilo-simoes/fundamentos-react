@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Parametro = (props) => {
+    // props é somente leitura
     return ( 
         <>
             <h3>{props.titulo}</h3>
@@ -9,4 +10,4 @@ const Parametro = (props) => {
      );
 }
  
-export default Parametro;
+export default Parametro;                           
