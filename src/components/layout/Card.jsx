@@ -6,7 +6,7 @@ const Card = (props) => {
             <div className="Content">
                 {props.children}
             </div>
-            <div className="Footer">
+            <div className="Footer" style={{backgroundColor: props.color || '#000'}}>
                 {props.titulo}
             </div>
         </div>

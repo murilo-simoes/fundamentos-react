@@ -13,10 +13,10 @@ import CondicionalComIf from './components/basicos/CondicionalComIf'
 const App = (props) => {
     return ( 
         <div className='App'>
-        <Card titulo="#05 - Condicional V1">
+        <Card titulo="#06 - Condicional V2" color="#FA6900">
         <Condicional numero={9}/>
         </Card>
-        <Card titulo="#06 - Condicional V2">
+        <Card titulo="#05 - Condicional V1">
         <CondicionalComIf numero={10}></CondicionalComIf>
         </Card>
         <Card titulo="#04 - Repeticao">
