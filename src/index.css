@@ -1,0 +1,11 @@
+body{
+    background-color: #444;
+    color:#fff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.4rem;
+    font-family: Arial;
+}
+h1, h2{
+    font-weight: 300;
+}
